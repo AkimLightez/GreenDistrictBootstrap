@@ -39,9 +39,14 @@ footer{
 }
 .card{
     background-color:#7c9465 ;
-    height: 100;
-    
+    height: 100;  
+    .card-body{
+        ul{
+            list-style: none;
+        }
+    } 
 }
+
 .form-group{
     input{
         background-color: #bcc9b1;
