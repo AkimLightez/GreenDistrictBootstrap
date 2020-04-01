@@ -1,12 +1,10 @@
 
+// Jquery
 $(".card").click(function() {
     $("p").animate({
       fontSize: $('p').css('font-size') == '16px' ? "25px" : '16px',
     });
-    $("ul").animate({
-      fontSize: $('li').css('font-size') == '16px' ? "25px" : '16px',
-    });
-  });
+})
 
 // $('#question').css('color','red');
 
