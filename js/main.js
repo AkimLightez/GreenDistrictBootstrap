@@ -14,7 +14,7 @@ $('#submitQuestion').click(function(e){
     $('#TextError').html("");
     $('#question').css('border','1px solid red');
     $('#email').css('border','1px solid red');
-    $('#TextError').html("Le @mail ou la qestion ne convient pas ");
+    $('#TextError').html("Le @mail ou la question ne convient pas ");
     $('#TextError').css('color','red','bold')
   }
   else{
